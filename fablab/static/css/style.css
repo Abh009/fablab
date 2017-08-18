@@ -1,0 +1,143 @@
+
+.consumables-page{
+    background: #eee;
+}
+
+td{
+    font-weight: bold;
+}
+ .card {
+          background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50vw;
+    max-height: 30vh;
+    margin: auto;
+    margin-bottom: 2vh;
+    padding: 0.5vh 0.5vw;
+    text-align: center;
+    transition: 0.3s;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.avatar{ 
+    width:20vw;
+    height: 40vh;
+}
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 1vh 1vw;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.home-page-link-text a{
+    color:#555;
+    font-weight: bold;
+    font-size: 5vh;
+    position: relative;
+    top: 20vh;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 3vh;
+    color: white;
+}
+
+.machine-display{
+    height:auto;width:100%;overflow:hidden;margin:3vh 3vw;padding:4vh 3vw
+}
+.machine-display-text{
+    
+    font-weight: bold;
+    color:#007;
+    }
+    
+    
+.machine-book-btn{
+    background: #005;
+    float: right;
+    width: auto;
+    margin: 1vh 3vw;
+    font-weight: bold;
+    color:#fff;
+    }
+    .machine-book-btn:hover{
+            background: #003;
+            color: #eee;
+    }
+.machine-price-text{
+    font-weight: bold;
+    color:#050;
+    }
+div.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+@keyframes entrance{
+     0%   {display: none;}
+    100% {display: inline-block;}
+}
+@-webkit-keyframes entrance{
+     0%   {display: none;}
+    100% {display: inline-block;}
+}
+@-moz-keyframes entrance{
+     0%   {display: none;}
+    100% {display: inline-block;}
+}
+#home-text {transition-timing-function: ease-in;
+animation: entrance 2s;
+-moz-animation: entrance 2s;
+-webkit-animation: entrance 2s;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>MACHINES</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body class="consumables-page">
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    
+                    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                        <a class="navbar-brand" href="/">FABLAB</a>
+                        <ul class="nav navbar-nav" style="float:right;margin-right:2vw">
+                            <li>
+                                <a class = "nav-link" href="/consumables">Consumables Booking</a>
+                            </li>
+                            <li class="active">
+                                <a  class = "nav-link"  href="/machine">Machine Booking</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    
+                    
+                </div>              
+            </div>
+            
+            <div class="container">
+                
+                <div class="row">
+                    
+                    
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        
+                    
+                    <br><br><br>
+
+                    <div class="w3-row-padding" align="center" style="width:100vw;margin:2vh 5vw;">
+                        
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/lasercutter.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">Laser Cutter</h4>
+                        <br>
+                        <h5 class="machine-price-text">170 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+
+                        </div>
+                        </div>
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/soldering_station.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">Soldering Station</h4>
+                        <br>
+                        <h5 class="machine-price-text">10 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+                        </div>
+                        </div>
+                        
+                        </div>
+                        
+                        
+                    <div class="w3-row-padding" align="center" style="width:100vw;margin:2vh 5vw;">
+                        
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/fngenerator.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">Function Generator</h4>
+                        <br>
+                        <h5 class="machine-price-text">35 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+                        </div>
+                        </div>
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/3dprinter.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">3D Printer</h4>
+                        <br>
+                        <h5 class="machine-price-text">35 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+                        </div>
+                        </div>
+                        
+                        </div>
+                        
+                    <div class="w3-row-padding" align="center" style="width:100vw;margin:2vh 5vw;">
+                        
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/vinylplotter.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">Vinyl Plotter</h4>
+                        <br>
+                        <h5 class="machine-price-text">25 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+                        </div>
+                        </div>
+                        <div  class="w3-third">
+                        <div class="machine-display w3-card w3-container w3-yellow w3-margin-bottom">
+                              
+                              <img src="{% static '/images/lasercutter.jpg' %}" width="50%" height="50%" style="width:10vh 10vw;float:left">
+                        <h4 class="machine-display-text">Laser Cutter</h4>
+                        <br>
+                        <h5 class="machine-price-text">170 INR/hour</h5>
+                        <button class="machine-book-btn">Book Now</button>
+                        </div>
+                        </div>
+                        
+                        </div>
+              </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+
+
+        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+Copyright &copy; 2017
+  </p>
+</footer>
+        
+    </body>
+</html>
